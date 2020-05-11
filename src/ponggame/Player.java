@@ -6,6 +6,7 @@ import java.awt.Graphics;
 public class Player {
     
     public boolean right, left;
+//    public boolean up, down;
     
     public int x, y;
     
@@ -21,6 +22,12 @@ public class Player {
         else if(left){
             x--;
         }
+//        else if(up){
+//            y--;
+//        }
+//        else if(down){
+//            y++;
+//        }
         
     }
     

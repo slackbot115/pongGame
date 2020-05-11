@@ -89,6 +89,12 @@ public class PongGame extends Canvas implements Runnable, KeyListener {
         else if(e.getKeyCode() == KeyEvent.VK_LEFT){
             player.left = true;
         }
+//        else if(e.getKeyCode() == KeyEvent.VK_UP){
+//            player.up = true;
+//        }
+//        else if(e.getKeyCode() == KeyEvent.VK_DOWN){
+//            player.down = true;
+//        }
     }
 
     @Override
@@ -99,6 +105,12 @@ public class PongGame extends Canvas implements Runnable, KeyListener {
         else if(e.getKeyCode() == KeyEvent.VK_LEFT){
             player.left = false;
         }
+//        else if(e.getKeyCode() == KeyEvent.VK_UP){
+//            player.up = false;
+//        }
+//        else if(e.getKeyCode() == KeyEvent.VK_DOWN){
+//            player.down = false;
+//        }
     }
 
 }
