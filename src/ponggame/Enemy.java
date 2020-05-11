@@ -13,13 +13,12 @@ public class Enemy {
         this.x = x;
         this.y = y;
         this.width = 40;
-        this.height = 10;
+        this.height = 5;
     }
 
     public void tick() {
-        // o -6 é apenas para ajuste de posição //
-        x += (PongGame.ball.x - x - 6) * 0.4; //o 0.4 é pra dificultar a chegada do inimigo a bola
-
+        // o '- 6' é apenas para ajuste de posição //
+        x += (PongGame.ball.x - x - 6) * 0.05; //o numero multiplicado é pra dificultar a chegada do inimigo a bola
     }
 
     public void render(Graphics g) {
